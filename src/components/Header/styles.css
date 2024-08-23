@@ -1,0 +1,33 @@
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 150px 0 150px;
+    box-sizing: border-box;
+}
+
+.signUpBtn{
+    width: 111px;
+    height: 48px;
+    border-radius: 5px;
+    background: rgb(127, 58, 106);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 375px) {
+    .headerContainer{
+        width: 100%;
+        padding: 24px 16px;
+        gap: 95px;
+    }
+    .signUpBtn{
+        width: 102px;
+        height: 40px;
+    }
+}
